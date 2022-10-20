@@ -101,3 +101,7 @@ Add this to your configuration.yaml file (substituting in your AirLink IP addres
           value_template: '{{ state_attr("sensor.airlink","data")["conditions"][0]["pm_2p5"] }}'
           unit_of_measurement: "pm2.5"
 ```
+
+### Integrate with weewx
+
+A nice [weewx](https://weewx.com)  extension is [HERE](https://github.com/chaunceygardiner/weewx-airlink)
